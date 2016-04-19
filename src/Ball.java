@@ -12,7 +12,7 @@ public class Ball extends Sprite implements Variables{
         xdir = 1;
         ydir = -1;
 
-        ImageIcon ii = new ImageIcon("src/Ball.png");
+        ImageIcon ii = new ImageIcon("src/img/Ball.png");
         image = ii.getImage();
 
         i_width = image.getWidth(null);

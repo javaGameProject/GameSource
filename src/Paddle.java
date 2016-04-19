@@ -10,7 +10,7 @@ public class Paddle extends Sprite implements Variables {
 
     public Paddle() {
 
-        ImageIcon ii = new ImageIcon("src/Paddle.png");
+        ImageIcon ii = new ImageIcon("src/img/Paddle.png");
         image = ii.getImage();
 
         i_width = image.getWidth(null);
